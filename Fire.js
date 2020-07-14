@@ -11,14 +11,7 @@ class Fire{
     init = () =>{
         if(!firebase.apps.length){
             firebase.initializeApp({
-                apiKey: "AIzaSyD5fbWTiqFztPt-YA6Ftc15wK8jfsheYeg",
-                authDomain: "chatapp-9a029.firebaseapp.com",
-                databaseURL: "https://chatapp-9a029.firebaseio.com",
-                projectId: "chatapp-9a029",
-                storageBucket: "chatapp-9a029.appspot.com",
-                messagingSenderId: "960092572842",
-                appId: "1:960092572842:web:26e800667dfebb15dd94d3",
-                measurementId: "G-YX5TV5BX77"
+                //enter your fire base CDN code from your project here
             });
         }
     };
